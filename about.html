@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Css Link Style -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+
+
+    <title>Hello, world! Bootstrap 5</title>
+</head>
+
+<body>
+    <!-- Navbar Section -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Both-Shop</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-capitalize" href="about.html">About us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                      Service
+                    </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-capitalize" href="gallery.html">gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-capitalize" href="contact.html">contact us</a>
+                    </li>
+                </ul>
+                <!-- Search Bar -->
+                <!-- <form class="d-flex">
+                <input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form> -->
+            </div>
+        </div>
+    </nav>
+    <!-- End Navbar Section -->
+    <!-- About Section Start -->
+    <section class="main_heading my-5">
+        <div class="text-center text-capitalize">
+            <h1 class="display-4">about us</h1>
+            <hr class="mx-auto w-25" />
+        </div>
+        <div class="container">
+            <div class="row my-5">
+                <div class="col-lg-6 col-md-6 col-12 col-xxl-6">
+                    <figure>
+                        <img src="imges/a1.jpg" class="img-fluid about-img" alt="About Images">
+                    </figure>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12 col-xxl-6 d-flex justify-content-center align-items-start flex-column">
+                    <h2>My Jurney</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste repellat quo necessitatibus vitae rerum libero placeat quia maiores cum ab veritatis voluptates velit aliquam amet repellendus, et pariatur neque similique.</p>
+                    <button type="button" class="btn btn-outline-info" data-toggle="tooltip" data-placement="right" title="Who is this ?">Check More</button>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div id="navbar-example" style="position: relative;">
+                    <nav id="navbar-example2" class="navbar navbar-light bg-light px-3">
+                        <a class="navbar-brand" href="#">Navbar</a>
+                        <ul class="nav nav-pills">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#fat">@fat</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#mdo">@mdo</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+                                <ul class="dropdown-menu dropdown-menu-right">
+                                    <li><a class="dropdown-item" href="#one">one</a></li>
+                                    <li><a class="dropdown-item" href="#two">two</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#three">three</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div data-spy="scroll" data-target="#navbar-example2" data-offset="0" style="height: 300px; overflow-y: scroll;">
+                        <h4 id="fat">@fat</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt sunt doloremque ducimus sint accusamus quaerat qui fugiat corporis rem eum temporibus vero beatae nam quidem blanditiis, quam accusantium velit. Voluptatem.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, sapiente nam? Iste vero tenetur optio? Quasi aspernatur, ex accusantium, rerum fuga blanditiis error sequi esse debitis atque modi! A, molestiae.</p>
+                        <h4 id="mdo">@mdo</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur veritatis corporis reiciendis earum similique qui fugit corrupti officia? Doloribus hic saepe exercitationem facilis esse harum perferendis nisi sit fugiat porro.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt sunt doloremque ducimus sint accusamus quaerat qui fugiat corporis rem eum temporibus vero beatae nam quidem blanditiis, quam accusantium velit. Voluptatem.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, sapiente nam? Iste vero tenetur optio? Quasi aspernatur, ex accusantium, rerum fuga blanditiis error sequi esse debitis atque modi! A, molestiae.</p>
+                        <h4 id="one">one</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, ipsam! Quod, officia! Illum illo dicta quia quidem suscipit! Quod, dolorem consectetur vitae quaerat totam eligendi vel ab delectus nulla voluptas?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt sunt doloremque ducimus sint accusamus quaerat qui fugiat corporis rem eum temporibus vero beatae nam quidem blanditiis, quam accusantium velit. Voluptatem.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, sapiente nam? Iste vero tenetur optio? Quasi aspernatur, ex accusantium, rerum fuga blanditiis error sequi esse debitis atque modi! A, molestiae.</p>
+                        <h4 id="two">two</h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae, facilis nam reprehenderit exercitationem vel, perspiciatis accusantium maxime officia libero sunt, debitis accusamus in? Ratione doloremque architecto tempore!
+                            Enim, nihil id!</p>
+                        <h4 id="three">three</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum totam alias optio. Id fuga nesciunt architecto aliquid blanditiis assumenda sapiente? Nemo et perspiciatis error voluptatibus vel consectetur rem eius earum.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt sunt doloremque ducimus sint accusamus quaerat qui fugiat corporis rem eum temporibus vero beatae nam quidem blanditiis, quam accusantium velit. Voluptatem.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, sapiente nam? Iste vero tenetur optio? Quasi aspernatur, ex accusantium, rerum fuga blanditiis error sequi esse debitis atque modi! A, molestiae.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- End About Section -->
+    <!-- Footer Section  -->
+    <footer class="bg-secondary text-center mt-3">
+        <p>@copyRight Abdul Alim</p>
+    </footer>
+    <!-- End Footer Section  -->
+
+
+    <!-- Optional JavaScript -->
+    <!-- Popper.js first, then Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js " integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo " crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js " integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/ " crossorigin="anonymous "></script>
+    <script type="text/javascript ">
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-toggle="tooltip "]'))
+        var tooltipList = tooltipTriggerList.map(function(tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
+        var scrollSpy = new bootstrap.ScrollSpy(document.body, {
+            target: '#navbar-example2'
+        })
+    </script>
+</body>
+
+</html>
